@@ -17,6 +17,9 @@
 * first checkout to master
 * then execute merge command: `git merge feature`
 
+### delete a branch
+`git branch -d branchname`
+
 ## to github
 * first create a repository on github, then change user config, then push
 `git remote add origin https://github.com/leventarican/git.git`
