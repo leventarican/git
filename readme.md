@@ -1,4 +1,4 @@
-# learning git.
+# learning tig.
 
 ## branch
 ### create a branch
