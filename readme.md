@@ -21,6 +21,7 @@
 * first create a repository on github, then change user config, then push
 `git remote add origin https://github.com/leventarican/git.git`
 `git push -u origin master`
+`git push -u origin branchname` // to push another branch
 
 ## list user config
 `git config --list`
