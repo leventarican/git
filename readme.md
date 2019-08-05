@@ -1,5 +1,9 @@
 # learning git.
 
+## undo from staging
+* you did ```git add``` and want to undo it?
+`git revert`
+
 ## branch
 ### create a branch
 `git branch branchname`
