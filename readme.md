@@ -2,7 +2,13 @@
 
 ## undo from staging
 * you did ```git add``` and want to undo it?
-`git revert`
+`git revert <file>`
+## remove commit
+* remove last commit from repository
+`git reset --hard HEAD^`
+* or last two commit: `git reset --hard HEAD~2`
+## revert commit
+* revert a commit: `git revert commit`
 
 ## branch
 ### create a branch
