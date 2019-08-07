@@ -10,6 +10,9 @@
 ## revert commit
 * revert a commit: `git revert commit`
 
+## links
+* good overview about undoing in git: https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/
+
 ## branch
 ### create a branch
 `git branch branchname`
