@@ -41,3 +41,9 @@
 
 ## list user config
 `git config --list`
+`git config --l`
+
+## create user config (.gitconfig at home dir)
+`git config --global user.name "leventarican"`
+`git config --global user.email "leven@protonmail.com"`
+
