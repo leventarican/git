@@ -1,4 +1,32 @@
-# learning git.
+1. [github cli](#git)
+2. [git](#git)
+
+# github cli
+* get latest github cli release: https://github.com/cli/cli/releases. ex. `wget`, `curl`
+* decompress file, create symbolic link, add `bin` path to your `.profile` file.
+```
+tar xfv gh_1.2.0_linux_amd64.tar.gz
+ln -s gh_1.2.0_linux_amd64/ gh
+PATH="$HOME/gh/bin:$PATH"
+```
+
+## ready
+* you can login with `gh auth login`, then web browser (one time code)
+```
+gh auth status
+
+You are not logged into any GitHub hosts. Run gh auth login to authenticate
+```
+
+```
+gh repo view leventarican/cookbook
+gh api repos/:owner/cookbook/traffic/views
+gh api repos/:owner/cookbook/traffic/clones
+```
+
+* https://developer.github.com/v3/repos/traffic/
+
+# git
 
 ## undo, remove, revert, undoing
 
