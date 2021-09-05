@@ -7,12 +7,18 @@
 * you can use the PAT as password when doing a `git push` 
 * alternativly you can cache the PAT
 ```bash
-git config --global credential-helper cache
+# https://git-scm.com/docs/git-credential-store
+
+git config credential.helper store
 # now open new terminal login with user and PAT
 git push
 
 # when the PAT is expired you can force re-login 
-git config --global --unset credential-helper
+git config --unset credential.helper
+
+# check files
+.gitconfig
+.git-credentials
 ```
 
 # github cli
