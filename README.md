@@ -1,6 +1,20 @@
 1. [github cli](#git)
 2. [git](#git)
 
+# github with git cli
+* since 13th august 2021 login works only with _personal access token_
+* generate a token with a given expiration and scopes (repo, workflow): https://github.com/settings/tokens
+* you can use the PAT as password when doing a `git push` 
+* alternativly you can cache the PAT
+```bash
+git config --global credential-helper cache
+# now open new terminal login with user and PAT
+git push
+
+# when the PAT is expired you can force re-login 
+git config --global --unset credential-helper
+```
+
 # github cli
 * get latest github cli release: https://github.com/cli/cli/releases. ex. `wget`, `curl`
 * decompress file, create symbolic link, add `bin` path to your `.profile` file.
